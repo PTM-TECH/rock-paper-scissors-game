@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#myH1 {
+  font-size: 3rem;
+}
+.container {
+  font-size: 5rem;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: hsl(226, 82%, 60%);
+}
+.container:hover {
+  background-color: hsl(226, 82%, 70%);
+}
+.container:active {
+  background-color: hsl(226, 82%, 80%);
+}
+#resultDisplay {
+  font-size: 2.5rem;
+}
+.redColor,
+#computerScoreDisplay {
+  color: tomato;
+}
+.greenColor,
+#playerScoreDisplay {
+  color: lightgreen;
+}
